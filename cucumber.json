@@ -1,0 +1,86 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author Tayyaba"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "download-reports;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User is on Dashboard Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User Enter Assam(36) and BARPETA - AS15( 29-DEC-2016 )",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User select Y_Axis and X_Axis and Click Refresh",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User select Month and Year",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User select Vehicle Category and Click Refresh",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Message displayed Maker Wise Fuel Data of RTO, State (Month,Year)",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Download Reports",
+    "description": "",
+    "id": "download-reports",
+    "keyword": "Feature",
+    "uri": "TC_01.feature"
+  }
+]
