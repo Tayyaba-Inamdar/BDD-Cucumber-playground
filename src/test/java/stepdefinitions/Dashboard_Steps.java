@@ -1,15 +1,11 @@
-package StepDefinition;
+package stepdefinitions;
 
 import io.cucumber.java.en.*;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.io.File;
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
 //
 //import static pages.Dashboard_Page.driver;
 //import static pages.Dashboard_Page.navigateToUrl;
